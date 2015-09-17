@@ -12,6 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
         <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+        <script type="text/javascript" src="../controllers/handlers.js"></script>
     </head>
     
     <body>
@@ -25,7 +26,7 @@ and open the template in the editor.
                 
                 <p>Oh! YEAH! SHOP</p>
                 <div>
-                  <form method="post" action="demoform.asp">
+                  <!--<form method="post" action="demoform.asp">-->
                       <div data-role="fieldcontain" class="ui-field-contain" style="">
                           <label for="prod_name">Name:</label>
                           <input type="text" name="prod_name" id="prod_name">
@@ -35,15 +36,16 @@ and open the template in the editor.
                           <input type="text" name="prod_description" id="prod_description">
                           <label for="prod_barcode">Barcode:</label>
                           <input type="text" name="prod_barcode" id="prod_barcode">
-                          <input type="button" value="Save">
+                          <input type="button" id="submit_btn" value="Save">
                      </div>
-                  </form>
+                  <!--</form>-->
                 </div>
                 
             </div>
             
         <div data-role="footer" style="">
             <h1>Aya Yaaaaya</h1>
+            <p id="message"></p>
         </div>
             
         </div>  
