@@ -21,7 +21,7 @@ function sendRequest ( u )
 
 /**
  * Function to handle the click of the submit button
- * 
+ *  
  * @returns {undefined}
  */
 $ ( function ( )
@@ -33,7 +33,7 @@ $ ( function ( )
        var prod_description = encodeURI ( document.getElementById ( "prod_description" ).value );
        var prod_barcode = encodeURI ( document.getElementById ( "prod_barcode" ).value );
        
-       var url = "../controllers/product.php?cmd=1&prod_name="+prod_name+
+       var url = "../controllers/product_controller.php?cmd=1&prod_name="+prod_name+
                      "&prod_price="+prod_price+"&prod_description="+prod_description+
                      "&prod_barcode="+prod_barcode;
              
@@ -48,7 +48,7 @@ $ ( function ( )
            $ ( "#message" ).text ( prod.status );
        }   
        
-       alert ( "Submit button clicked" );
+//       alert ( "Submit button clicked" );
    }); 
 });
 
