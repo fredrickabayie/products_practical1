@@ -55,5 +55,24 @@ $ ( function ( )
 
 $ ( document ).ready ( function ( ) 
 {
+    var url = "../controllers/product_controller.php?cmd=2";
+    var prod = sendRequest ( url );
     
+    if ( prod.result === 1 )
+    {
+        var div = "";
+        var timer;
+        
+        for ( var index in prod.products )
+        {
+            div += "<li data-role='list-divider'>Friday, October 8, 2010 <span class='ui-li-count'>ID "+prod.products [index].prod_id+"</span></li>";
+            div += "<li><a href='index.html'>";
+            div += "<h2>"+prod.products [index].prod_name+"</h2>";
+            div += "<p><strong>BARCODE "+prod.products [index].prod_barcode+"</strong></p>";
+            div += "<p>DESCRIPTION "+prod.products [index].prod_description+"</p>";
+            div += "<p class='ui-li-aside'><strong>GHC "+prod.products [index].prod_price+"</strong></p>";
+            div += "</a></li>";
+        }
+        $ ( "#prod_display" ).html ( div );
+    }
 });

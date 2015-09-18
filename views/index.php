@@ -23,18 +23,16 @@ and open the template in the editor.
             </div>
             
             <div role="main" class="ui-content">
-                <a href="#dialog_page" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop">Popup</a>
-                
+                                
                 <!--The list displaying the list of products in the database-->
-                <ul data-role="listview" data-inset="true">
+                <ul data-role="listview" id="prod_display" data-inset="true">
                     
                 </ul>
                 
             </div>
             
         <div data-role="footer" data-position="fixed" style="">
-            <h1>Aya Yaaaaya</h1>
-            <p id="message"></p>
+            <a href="#dialog_page" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop">Popup</a>
         </div>
             
         </div>  

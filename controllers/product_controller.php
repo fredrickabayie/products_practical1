@@ -73,7 +73,7 @@ if ( isset ( $_REQUEST [ 'cmd' ] ) )
             echo ' { "result":1, "products": [';
             while ( $row )
             {
-                echo '{"prod_id": "'.$row["prod_id"].'", "prod_name": "'.$row["prod_name"].'",'
+                echo '{"prod_id": "'.$row["prod_id"].'", "prod_name": "'.$row["prod_name"].'", "prod_price": "'.$row["prod_price"].'",'
                         . '"prod_description": "'.$row["prod_description"].'", "prod_barcode": "'.$row["prod_barcode"].'"}';
                 
                 if ( $row = $prod->fetch ( ) )
