@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="en">
+<html lang="en" manifest="mwc.appcache">
     <head>
         <title>Products</title>
         <meta charset="UTF-8">
@@ -12,14 +12,25 @@ and open the template in the editor.
         <link rel="stylesheet" href="../packages/jquery.mobile-1.4.5.min.css">
         <script src="../packages/jquery-2.1.4.min.js"></script>
         <script src="../packages/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="../packages/custom.css"/>
+        <link rel="stylesheet" href="../packages/custom.min.css"/>
         <script type="text/javascript" src="../controllers/handlers.js"></script>
     </head>
     
     <body>
         
-        <div data-role="page" data-theme="b" id="pageone">
+        <div data-role="page" data-theme="a" id="pageone">
             <div data-role="header" data-position="fixed">
                 <h1>Product Guru</h1>
+                <a href="#dialog_page" style="width: 70px" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop"></a>
+                <input type="button" value="About"/>
+                <div data-role="navbar">
+                    <ul> 
+                        <!--<li><a href="#anylink" class="ui-btn-active ui-icon-home ui-state-persist">Home</a></li>--> 
+                        <li><a href="#anylink" class="ui-btn-active ui-state-persist">Page Two</a></li>
+                        <li><a href="#anylink" class="ui-btn-active ui-state-persist">Search</a></li>
+                    </ul>
+                </div>
             </div>
             
             <div role="main" class="ui-content">
@@ -32,7 +43,7 @@ and open the template in the editor.
             </div>
             
         <div data-role="footer" data-position="fixed" style="">
-            <a href="#dialog_page" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop">Popup</a>
+            <h1>Designed by Okokroko</h1>
         </div>
             
         </div>  
