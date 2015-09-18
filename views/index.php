@@ -17,17 +17,38 @@ and open the template in the editor.
     
     <body>
         
-        <div data-role="page" id="pageone">
-            <div data-role="header">
+        <div data-role="page" data-theme="b" id="pageone">
+            <div data-role="header" data-position="fixed">
                 <h1>Product Guru</h1>
             </div>
             
             <div role="main" class="ui-content">
+                <a href="#dialog_page" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop">Popup</a>
                 
-                <p>Oh! YEAH! SHOP</p>
-                <div>
-                  <!--<form method="post" action="demoform.asp">-->
-                      <div data-role="fieldcontain" class="ui-field-contain" style="">
+                <!--The list displaying the list of products in the database-->
+                <ul data-role="listview" data-inset="true">
+                    
+                </ul>
+                
+            </div>
+            
+        <div data-role="footer" data-position="fixed" style="">
+            <h1>Aya Yaaaaya</h1>
+            <p id="message"></p>
+        </div>
+            
+        </div>  
+        
+        <!--The modal for adding a new product-->
+                <div data-role="dialog" id="dialog_page">
+                    
+                    <div data-role="header">
+                        <h1>New Product</h1>
+                    </div>
+                    
+                    <div data-role="content">
+                        
+                        <div data-role="fieldcontain" class="ui-field-contain" >
                           <label for="prod_name">Name:</label>
                           <input type="text" name="prod_name" id="prod_name">
                           <label for="prod_price">Price:</label>
@@ -35,20 +56,17 @@ and open the template in the editor.
                           <label for="prod_description">Description:</label>
                           <input type="text" name="prod_description" id="prod_description">
                           <label for="prod_barcode">Barcode:</label>
-                          <input type="text" name="prod_barcode" id="prod_barcode">
-                          <input type="button" id="submit_btn" value="Save">
-                     </div>
-                  <!--</form>-->
+                          <input type="text" name="prod_barcode" id="prod_barcode">      
+                        </div>
+                        
+                    </div>
+                    
+                    <div data-role="footer">
+                        <input type="button" id="submit_btn" value="Save">
+                    </div>
+                    
                 </div>
-                
-            </div>
-            
-        <div data-role="footer" style="">
-            <h1>Aya Yaaaaya</h1>
-            <p id="message"></p>
-        </div>
-            
-        </div>  
+        
         
         
         
