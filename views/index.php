@@ -21,8 +21,9 @@ and open the template in the editor.
         
         <div data-role="page" data-theme="b" id="pageone">
             <div data-role="header" data-position="fixed">
-                <a href="#pageone" data-role="button">Home</a> 
+                <a href="#pageone" data-role="button" data-transition="slidefade" data-icon="home">Home</a>  
                 <h1>Product Guru</h1>
+                <a href="#pagethree" data-role="button" data-transition="pop" data-icon="back">Back</a> 
                 <div data-role="navbar">
                     <ul> 
                         <li><a href="#dialog_page" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn-active ui-state-persist">Add Product</a></li>
@@ -60,8 +61,9 @@ and open the template in the editor.
                 <div data-role="page" data-theme="c" id="pagetwo">
                     
                     <div data-role="header" data-position="fixed">
+                        <a href="#pageone" data-role="button" data-transition="slidefade" data-icon="home">Home</a> 
                 <h1>Product Guru</h1>
-                <!--<a href="#dialog_page" style="width: 70px" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop"></a>-->
+                <a href="#pagethree" data-role="button" data-transition="pop" data-icon="back">Back</a> 
                 <div data-role="navbar">
                     <ul> 
                         <li><a href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
@@ -81,15 +83,15 @@ and open the template in the editor.
                     <div data-role="footer" data-position="fixed">
             <h1>Designed by Okokroko</h1>
         </div>
-                    
-                    
+                
                 </div>
         
             <div data-role="page" id="pagethree" style="background-color: green">
                     
                 <div data-role="header" data-position="fixed" style="background-color: violet">
+                    <a href="#pageone" data-role="button" data-transition="slidefade" style="background-color: sandybrown" data-icon="home">Home</a> 
                     <h1 style="font-size: 23px">Product Guru</h1>
-                <!--<a href="#dialog_page" style="width: 70px" data-icon="plus" data-iconpos="notext" data-rel="dialog" data-transition="pop"></a>-->
+                    <a href="#pagetwo" data-role="button" data-transition="pop" style="background-color: sandybrown" data-icon="back">Back</a> 
                 <div data-role="navbar" style="background-color: indigo">
                     <ul> 
                         <li><a style="background-color: red; font-size: 19px" href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
