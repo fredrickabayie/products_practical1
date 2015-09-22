@@ -12,14 +12,14 @@ and open the template in the editor.
         <link rel="stylesheet" href="../packages/jquery.mobile-1.4.5.min.css">
         <script type="text/javascript" src="../packages/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="../packages/jquery.mobile-1.4.5.min.js"></script>
-<!--        <link rel="stylesheet" href="../packages/custom.css"/>
-        <link rel="stylesheet" href="../packages/custom.min.css"/>-->
+        <link rel="stylesheet" href="../packages/custom.css"/>
+        <link rel="stylesheet" href="../packages/custom.min.css"/>
         <script type="text/javascript" src="../controllers/handlers.js"></script>
     </head>
     
     <body>
         
-        <div data-role="page" data-theme="b" id="pageone">
+        <div data-role="page" data-theme="c" id="pageone">
             <div data-role="header" data-position="fixed">
                 <h1>Product Guru</h1>
                 <div data-role="navbar">
@@ -56,7 +56,7 @@ and open the template in the editor.
         </div>
         
         <!--The modal for adding a new product-->
-                <div data-role="page" id="pagetwo">
+                <div data-role="page" data-theme="b" id="pagetwo">
                     
                     <div data-role="header" data-position="fixed">
                 <h1>Product Guru</h1>
@@ -98,9 +98,10 @@ and open the template in the editor.
                 </div>
             </div>
                     
-                     <div role="main" data-role="content">
+                     <div data-role="content">
                          <div data-role="collapsible">
-                             
+                             <h1>About Software</h1>
+                             <p>This is a software to help SAFE personnel enter products into the system.</p>
                          </div>
                     </div>
                    
