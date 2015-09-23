@@ -9,11 +9,17 @@
 /**
 *Defining constant for the database connection
 */
+//define("DB_HOST", 'localhost');
+//define("DB_NAME", 'mobile_web');
+//define("DB_PORT", 3306);
+//define("DB_USER","admin");
+//define("DB_PWORD","Ashesi@2016?");
+
 define("DB_HOST", 'localhost');
-define("DB_NAME", 'mobile_web');
+define("DB_NAME", 'csashesi_fredrick-abayie');
 define("DB_PORT", 3306);
-define("DB_USER","admin");
-define("DB_PWORD","Ashesi@2016?");
+define("DB_USER","csashesi_fa16");
+define("DB_PWORD","db!hEi2As");
 
 /**
 *A class to establish a connection to the database

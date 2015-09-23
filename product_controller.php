@@ -37,7 +37,7 @@ if ( isset ( $_REQUEST [ 'cmd' ] ) )
         if ( isset ( $_REQUEST [ 'prod_name' ] ) && isset ( $_REQUEST [ 'prod_price' ] ) 
         && isset ( $_REQUEST [ 'prod_description' ] ) && isset ( $_REQUEST [ 'prod_barcode' ] ) )
         {
-            include_once '../models/product.php';
+            include_once 'http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product.php';
             
             $prod_name = $_REQUEST [ 'prod_name' ];
             $prod_price = $_REQUEST [ 'prod_price' ];
@@ -64,7 +64,7 @@ if ( isset ( $_REQUEST [ 'cmd' ] ) )
      */
     function get_products ( )
     {
-        include_once '../models/product.php';
+        include_once 'http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product.php';
         $prod = new product ( );
         
         if ( $prod->get_products ( ) )

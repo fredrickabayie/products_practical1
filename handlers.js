@@ -33,7 +33,7 @@ $ ( function ( )
        var prod_description = encodeURI ( document.getElementById ( "prod_description" ).value );
        var prod_barcode = encodeURI ( document.getElementById ( "prod_barcode" ).value );
        
-       var url = "product_controller.php?cmd=1&prod_name="+prod_name+
+       var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=1&prod_name="+prod_name+
                      "&prod_price="+prod_price+"&prod_description="+prod_description+
                      "&prod_barcode="+prod_barcode;
              
@@ -55,7 +55,7 @@ $ ( function ( )
 
 $ ( document ).ready ( function ( ) 
 {
-    var url = "product_controller.php?cmd=2";
+    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
     var prod = sendRequest ( url );
     
     if ( prod.result === 1 )
