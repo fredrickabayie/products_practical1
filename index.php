@@ -14,12 +14,12 @@
     <head>
         <title>Products</title>
         <!--<meta name="viewport" content="width=device-width, initial-sale=1">-->
-        <link rel="stylesheet" href="../packages/jquery.mobile-1.4.5.min.css">
-        <script type="text/javascript" src="../packages/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="../packages/jquery.mobile-1.4.5.min.js"></script>
-        <link rel="stylesheet" href="../packages/custom.css"/>
+        <link rel="stylesheet" href="packages/jquery.mobile-1.4.5.min.css">
+        <script type="text/javascript" src="packages/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="packages/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="packages/custom.css"/>
         <!--<link rel="stylesheet" href="../packages/custom.min.css"/>--> 
-        <script type="text/javascript" src="../controllers/handlers.js"></script>
+        <script type="text/javascript" src="controllers/handlers.js"></script>
     </head>
     
     <body>
