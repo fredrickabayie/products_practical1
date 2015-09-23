@@ -1,0 +1,558 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Generated from data/head-home.php, ../../smarty/{head.tpl} -->
+<head>
+<title>World Wide Web Consortium (W3C)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="Help" href="/Help/" />
+<link rel="stylesheet" href="/2008/site/css/minimum" type="text/css" media="handheld, all" />
+<style type="text/css" media="print, screen and (min-width: 481px)">
+/*<![CDATA[*/
+@import url("/2008/site/css/advanced");
+/*]]>*/
+</style>
+<link href="/2008/site/css/minimum" rel="stylesheet" type="text/css" media="handheld, only screen and (max-device-width: 480px)" />
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="/2008/site/css/print" type="text/css" media="print" />
+<link rel="shortcut icon" href="/2008/site/images/favicon.ico" type="image/x-icon" />
+<meta name="description" content="The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards." />
+<link rel="alternate" type="application/atom+xml" title="W3C News" href="/blog/news/feed/atom" />
+</head>
+<body id="www-w3-org" class="w3c_public w3c_home">
+<div id="w3c_container">
+<!-- Generated from data/mast-home.php, ../../smarty/{mast.tpl} -->
+<div id="w3c_mast"><!-- #w3c_mast / Page top header -->
+<h1 class="logo"><a tabindex="2" accesskey="1" href="/"><img src="/2008/site/images/logo-w3c-mobile-lg" width="90" height="53" alt="W3C" /></a> <span class="alt-logo">W3C</span></h1>
+<div id="w3c_nav">
+<form id="region_form" action="http://www.w3.org/Consortium/contact">
+<div><select name="region">
+<option selected="selected" title="Get Information about W3C By Region">W3C By Region</option>
+<option value="all">All</option>
+<option value="au">Australia</option>
+<option xml:lang="de" lang="de" value="de">&#xD6;sterreich
+(Austria)</option>
+<option lang="nl" xml:lang="nl" value="nl">Belgi&#xEB;
+(Belgium)</option>
+<option value="za">Botswana</option>
+<option xml:lang="pt-br" value="br" lang="pt-br">Brasil
+(Brazil)</option>
+<option xml:lang="zh-hans" value="cn" lang="zh-hans">&#x4E2D;&#x56FD;
+(China)</option>
+<option xml:lang="fi" value="fi" lang="fi">Suomi (Finland)</option>
+<option xml:lang="de" value="de" lang="de">Deutschland
+(Germany)</option>
+<option xml:lang="el" value="gr" lang="el">&#x395;&#x3BB;&#x3BB;&#x3AC;&#x3B4;&#x3B1; (Greece)</option>
+<option xml:lang="fr" value="fr" lang="fr">France</option>
+<option xml:lang="hu" value="hu" lang="hu">Magyarorsz&#xE1;g
+(Hungary)</option>
+<option xml:lang="hi" value="in" lang="hi">&#x92D;&#x93E;&#x930;&#x924; (India)</option>
+<option xml:lang="ga" lang="ga" value="gb">&#xC9;ire (Ireland)</option>
+<option xml:lang="he" value="il" lang="he">&#x5D9;&#x5E9;&#x5E8;&#x5D0;&#x5DC; (Israel)</option>
+<option xml:lang="it" value="it" lang="it">Italia (Italy)</option>
+<option xml:lang="ja" value="jp" lang="ja">&#x65E5;&#x672C; (Japan)</option>
+<option xml:lang="ko" value="kr" lang="ko">&#xD55C;&#xAD6D; (Korea)</option>
+<option value="za">Lesotho</option>
+<option lang="lb" xml:lang="lb" value="nl">L&#xEB;tzebuerg
+(Luxembourg)</option>
+<option xml:lang="ar" value="ma" lang="ar">&#x627;&#x644;&#x645;&#x63A;&#x631;&#x628;
+(Morocco)</option>
+<option value="za">Namibia</option>
+<option lang="nl" xml:lang="nl" value="nl">Nederland
+(Netherlands)</option>
+<option xml:lang="ru" value="ru" lang="ru">&#x420;&#x43E;&#x441;&#x441;&#x438;&#x44F; (Russia)</option>
+<option xml:lang="fr" value="sn" lang="fr">S&#xE9;n&#xE9;gal</option>
+<option xml:lang="es" value="es" lang="es">Espa&#xF1;a (Spain)</option>
+<option value="za">South Africa</option>
+<option lang="ss" xml:lang="ss" value="za">Swatini
+(Swaziland)</option>
+<option xml:lang="sv" value="se" lang="sv">Sverige
+(Sweden)</option>
+<option value="gb">United Kingdom</option>
+</select> <input class="button" type="submit" value="Go" /></div>
+</form>
+<form action="http://www.w3.org/Help/search" method="get" enctype="application/x-www-form-urlencoded">
+<!-- w3c_sec_nav is populated through js -->
+<div class="w3c_sec_nav"><!-- --></div>
+<ul class="main_nav"><!-- Main navigation menu -->
+<li class="first-item"><a href="/standards/">Standards</a></li>
+<li><a href="/participate/">Participate</a></li>
+<li><a href="/Consortium/membership">Membership</a></li>
+<li class="last-item"><a href="/Consortium/">About W3C</a></li>
+<li class="search-item">
+<div id="search-form"><input tabindex="3" class="text" name="q" value="" title="Search" /> <button id="search-submit" name="search-submit" type="submit"><img class="submit" src="/2008/site/images/search-button" alt="Search" width="21" height="17" /></button></div>
+</li>
+</ul>
+</form>
+</div>
+</div>
+<!-- /end #w3c_mast -->
+<div id="w3c_main">
+<div id="w3c_logo_shadow" class="w3c_leftCol"><img height="32" alt="" src="/2008/site/images/logo-shadow" /></div>
+<div class="w3c_leftCol">
+<h2 class="offscreen">Site Navigation</h2>
+<h3 class="category"><span class="ribbon"><a href="/TR/">Technical
+Reports <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="/TR/tr-date-all">By date</a></li>
+<li><a href="/TR/tr-groups-all">By group</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="standards">Web and Industry <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="auto/">Automotive</a></li>
+<li><a href="dpub/">Digital Publishing</a></li>
+<li><a href="/Mobile/">Mobile Web</a></li>
+<li><a href="tv/">TV and Broadcasting</a></li>
+<li><a href="Payments/">Web Payments</a></li>
+<li><a href="2013/data/">Web of Data</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="Consortium/mission.html#principles">Web for All <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="/WAI/">Accessibility</a></li>
+<li><a href="/International/">Internationalization</a></li>
+<li><a title="Popular links to W3C technology information" href="Consortium/siteindex.html#technologies">W3C
+A&#xA0;to&#xA0;Z</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="/community/">Community and Business Groups <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="/community/groups/">Current Groups</a></li>
+<li><a href="/community/groups/proposed/">Proposed Groups</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="Consortium/activities">Working Groups <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="/TR/tr-groups-all">Specifications by group</a></li>
+<li><a title="Member-only group participant guidebook" href="/Guide/">Participant guidebook</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="participate/">Dev Resources <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a title="Web Platform Docs: An open community of developers building resources for a better web" href="http://www.webplatform.org/"><img src="/2008/site/images/wplogo_transparent.png" width="93" height="100" alt="Web Platform Docs" /></a></li>
+<li><a title="MOOCs from W3C on edX" href="https://www.edx.org/school/w3cx"><img src="/2015/04/w3cx-home.png" alt="W3Cx" /></a></li>
+<li><a title="W3DevCampus: Online Training for Web Developers" href="http://www.w3devcampus.com/"><img src="/2008/site/images/w3devcampus.png" alt="W3DevCampus" width="150" height="21" /></a></li>
+<li><a title="Test the Web Forward: One stop shop for Open Web Platform testing" href="http://testthewebforward.org/"><img src="/2008/site/images/ttwf-dinos.png" alt="Test the Web Forward" width="150" height="34" /></a></li>
+<li><a href="participate/">More ways to participate</a></li>
+</ul>
+<h3 class="category tMargin"><span class="ribbon"><a href="/Member/">Member-only Home <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></span></h3>
+<ul class="theme">
+<li><a href="http://www.w3.org/Consortium/activities">Join a
+Group</a></li>
+<li><a href="http://www.w3.org/Help/Account/Request/Member">Get
+Member Account</a></li>
+</ul>
+</div>
+<div class="w3c_mainCol">
+<div id="w3c_crumbs">
+<div id="w3c_crumbs_frame">
+<p class="bct"><span class="skip"><a tabindex="1" accesskey="2" title="Skip to content (e.g., when browsing via audio)" href="#w3c_most-recently">Skip</a></span></p>
+<br /></div>
+</div>
+<div class="line">
+<div class="unit size2on3">
+<div class="main-content">
+<h2 class="offscreen">News</h2>
+<div id="w3c_slideshow"><div id="w3c_most-recently" class="intro hierarchy vevent_list">
+   <div class="event w3c_topstory expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">Standards for Web Applications on Mobile: current state and roadmap</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-04T14:13:46Z"> 4 September 2015 </span> | <a title="Archive: Standards for Web Applications on Mobile: current state and roadmap" href="https://www.w3.org/blog/news/archives/4959?pk_campaign=feed&amp;pk_kwd=standards-for-web-applications-on-mobile-current-state-and-roadmap-7">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p><a class="imageLink" href="/2015/08/mobile-web-app-state/"><img src="/2014/11/webapp-sm.png" alt="Thumbnail of application platform diagram that appears in the report" /></a>W3C has published the August 2015 edition of <a href="/2015/08/mobile-web-app-state/">Standards for Web Applications on Mobile</a>, an overview of the various technologies developed in W3C that increase the capabilities of Web applications, and how they apply more specifically to the mobile context.</p>
+<p>A deliverable of the <a href="http://html5apps-project.eu/">HTML5Apps</a> project, this edition includes changes and additions since May 2015, particularly emerging work such as the proposed <a href="/2015/06/payments-wg-charter.html">charter for a Web Payments Working Group</a> and the development of a <a href="/2015/hasec/2015-hasec-charter.html">draft charter for a Hardware Security Working Group</a>. Learn more about the <a href="/Mobile/IG/">Web and Mobile Interest Group</a>.</p>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4959%3Fpk_campaign%3Dfeed%26pk_kwd%3Dstandards-for-web-applications-on-mobile-current-state-and-roadmap-7&amp;action_name=Standards+for+Web+Applications+on+Mobile%3A+current+state+and+roadmap&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">Three First Public Working Drafts Published by the Cascading Style Sheets (CSS) WG</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-22T15:43:36Z"> 22 September 2015 </span> | <a title="Archive: Three First Public Working Drafts Published by the Cascading Style Sheets (CSS) WG" href="https://www.w3.org/blog/news/archives/5009?pk_campaign=feed&amp;pk_kwd=3-first-public-working-drafts-published-by-the-cascading-style-sheets-css-wg">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="//www.w3.org/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published three Working Drafts:</p>
+<ul class="show_items">
+<li><a href="//www.w3.org/TR/2015/WD-css-ui-4-20150922/">CSS Basic User Interface Module Level 4</a>: This specification describes user interface related properties and values to style HTML and XML (including XHTML). It includes and extends user interface related features from the properties and values of previous CSS levels. It uses various properties and values to style basic user interface elements in a document.</li>
+<li><a href="//www.w3.org/TR/2015/WD-css-text-4-20150922/">CSS Text Module Level 4</a>: This module defines properties for text manipulation and specifies their processing model. It covers line breaking, justification and alignment, white space handling, and text transformation.</li>
+<li><a href="//www.w3.org/TR/2015/WD-css-round-display-1-20150922/">CSS Round Display Level 1</a>: This document describes CSS extensions to support a round display. It extends existing CSS features including Media Queries, CSS Shapes, Borders, and Positioned Layout. The extensions will help web authors to build a web page suitable for a round display.</li>
+</ul>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F5009%3Fpk_campaign%3Dfeed%26pk_kwd%3D3-first-public-working-drafts-published-by-the-cascading-style-sheets-css-wg&amp;action_name=Three+First+Public+Working+Drafts+Published+by+the+Cascading+Style+Sheets+%28CSS%29+WG&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">One Draft and One Note Published by the Web Performance WG</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-22T15:43:35Z"> 22 September 2015 </span> | <a title="Archive: One Draft and One Note Published by the Web Performance WG" href="https://www.w3.org/blog/news/archives/5007?pk_campaign=feed&amp;pk_kwd=one-draft-and-one-note-published-by-the-web-performance-wg">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="//www.w3.org/2010/webperf/">Web Performance Working Group</a> has published two documents:</p>
+<ul class="show_items">
+<li>A Working Draft of <a href="//www.w3.org/TR/2015/WD-beacon-20150922/">Beacon</a>: This specification defines an interoperable means for site developers to asynchronously transfer small HTTP data from the User Agent to a web server.</li>
+<li>A Group Note of <a href="//www.w3.org/TR/2015/NOTE-animation-timing-20150922/">Timing control for script-based animations</a>: This document defines an API web page authors can use to write script-based animations where the user agent is in control of limiting the update rate of the animation. The user agent is in a better position to determine the ideal animation rate based on whether the page is currently in a foreground or background tab, what the current load on the CPU is, and so on. Using this API should therefore result in more appropriate utilization of the CPU by the browser.</li>
+</ul>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F5007%3Fpk_campaign%3Dfeed%26pk_kwd%3Done-draft-and-one-note-published-by-the-web-performance-wg&amp;action_name=One+Draft+and+One+Note+Published+by+the+Web+Performance+WG&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">Two Drafts Published by the Cascading Style Sheets (CSS) WG</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-17T14:56:33Z"> 17 September 2015 </span> | <a title="Archive: Two Drafts Published by the Cascading Style Sheets (CSS) WG" href="https://www.w3.org/blog/news/archives/4990?pk_campaign=feed&amp;pk_kwd=two-drafts-published-by-the-cascading-style-sheets-css-wg">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published two Working Drafts:</p>
+<ul class="show_items">
+<li><a href="/TR/2015/WD-css-grid-1-20150917/">CSS Grid Layout Module Level 1</a>: This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a flexible or fixed predefined layout grid.</li>
+<li><a href="/TR/2015/WD-css-inline-3-20150917/">CSS Inline Layout Module Level 3</a>: The CSS formatting model provides for a flow of elements and text inside of a container to be wrapped into lines. The formatting of elements and text within a line, its positioning in the inline progression direction, and the breaking of lines are described in CSS3TEXT. This module describes the positioning in the block progression direction both of elements and text within lines and of the lines themselves. This positioning is often relative to a baseline. It also describes special features for formatting of first lines and drop caps. It extends on the model in CSS2.</li>
+</ul>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4990%3Fpk_campaign%3Dfeed%26pk_kwd%3Dtwo-drafts-published-by-the-cascading-style-sheets-css-wg&amp;action_name=Two+Drafts+Published+by+the+Cascading+Style+Sheets+%28CSS%29+WG&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">Cooperative Scheduling of Background Tasks Draft Published</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-17T14:56:30Z"> 17 September 2015 </span> | <a title="Archive: Cooperative Scheduling of Background Tasks Draft Published" href="https://www.w3.org/blog/news/archives/4993?pk_campaign=feed&amp;pk_kwd=cooperative-scheduling-of-background-tasks-draft-published">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="/2010/webperf/">Web Performance Working Group</a> has published a Working Draft of <a href="/TR/2015/WD-requestidlecallback-20150917/">Cooperative Scheduling of Background Tasks</a>. This document defines an API that web page authors can use to cooperatively schedule background tasks such that they do not introduce delays to other high priority tasks that share the same event loop, e.g. input processing, animations, and frame compositing. The user agent is in a better position to determine when background tasks can be run without introducing user-perceptible delays or jank in animations and input response, based on its knowledge of currently scheduled tasks, vsync deadlines, user-interaction and so on. Using this API should therefore result in more appropriate scheduling of background tasks during times when the browser would otherwise be idle.</p>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4993%3Fpk_campaign%3Dfeed%26pk_kwd%3Dcooperative-scheduling-of-background-tasks-draft-published&amp;action_name=Cooperative+Scheduling+of+Background+Tasks+Draft+Published&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">First Public Working Draft: CSS Page Floats</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-15T14:19:40Z"> 15 September 2015 </span> | <a title="Archive: First Public Working Draft: CSS Page Floats" href="https://www.w3.org/blog/news/archives/4980?pk_campaign=feed&amp;pk_kwd=first-public-working-draft-css-page-floats">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="/Style/CSS/members">Cascading Style Sheets (CSS) Working Group</a> has published a Working Draft of <a href="/TR/2015/WD-css-page-floats-3-20150915/">CSS Page Floats</a>. This document describes floats that move to the top or bottom of content passages. This feature has traditionally been used in print publications in which figures and photos are moved to the top or bottom of columns or pages, along with their captions. This draft describes how to achieve this effect for floats within pages, columns, regions and elements.</p>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4980%3Fpk_campaign%3Dfeed%26pk_kwd%3Dfirst-public-working-draft-css-page-floats&amp;action_name=First+Public+Working+Draft%3A+CSS+Page+Floats&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+   <div class="event closed expand_block">
+      <div class="headline">
+         <h3 class="h4 tPadding0 bPadding0 summary">
+            <span class="expand_section">Scalable Vector Graphics (SVG) 2 Draft Published</span>
+         </h3>
+         <p class="date">
+            <span class="dtstart published" title="2015-09-15T14:19:40Z"> 15 September 2015 </span> | <a title="Archive: Scalable Vector Graphics (SVG) 2 Draft Published" href="https://www.w3.org/blog/news/archives/4975?pk_campaign=feed&amp;pk_kwd=scalable-vector-graphics-svg-2-draft-published-2">Archive</a>
+         </p>
+      </div>
+      <div class="description expand_description"><p>The <a href="/Graphics/SVG/WG/">SVG Working Group</a> has published a Working Draft of <a href="/TR/2015/WD-SVG2-20150915/">Scalable Vector Graphics (SVG) 2</a>. This specification defines the features and syntax for Scalable Vector Graphics (SVG) Version 2. SVG is a language based on XML for describing two-dimensional vector and mixed vector/raster graphics. SVG content is stylable, scalable to different display resolutions, and can be viewed stand-alone, mixed with HTML content, or embedded using XML namespaces within other XML languages. SVG also supports dynamic changes; script can be used to create interactive documents, and animations can be performed using declarative animation features or by using script.</p>
+<p><img src="https://www.w3.org/analytics/piwik/piwik.php?idsite=7&amp;rec=1&amp;url=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Farchives%2F4975%3Fpk_campaign%3Dfeed%26pk_kwd%3Dscalable-vector-graphics-svg-2-draft-published-2&amp;action_name=Scalable+Vector+Graphics+%28SVG%29+2+Draft+Published&amp;urlref=https%3A%2F%2Fwww.w3.org%2Fblog%2Fnews%2Ffeed" style="border:0;width:0;height:0" width="0" height="0" alt="" /></p>
+</div>
+   </div>
+</div></div>
+<p class="noprint"><span class="more-news"><a href="/blog/news/" title="More News">More news&#x2026;</a> <a title="RSS feed for W3C home page news" href="/blog/news/feed" class="feedlink"><img width="30" height="30" alt="RSS" src="/2008/site/images/icons/rss30" /></a> <a title="Atom feed for W3C home page news" href="/blog/news/feed/atom" class="feedlink"><img width="30" height="30" alt="Atom" src="/2008/site/images/icons/atom30" /></a></span></p>
+<div class="w3c_events_talks">
+<div class="line">
+<div class="unit size1on2">
+<div id="w3c_home_talks" class="w3c_upcoming_talks"><h2 class="category"><a title="More Talks&#x2026;" href="/Talks/">
+	      Talks and Appearances
+	      <img src="/2008/site/images/header-link" alt="Header link" width="13" height="13" class="header-link" /></a></h2><ul class="vevent_list"><li class="vevent"><p class="date single"><span class="dtstart"><span class="year">2015</span><span class="mm-dd">-09-24</span></span> <span class="paren">(</span><span class="dd-mmm">24 SEP</span><span class="paren">)</span></p><div class="info-wrap"><p class="summary"><a href="http://www.w3c.se/resources/office/talks/20150924/">E-b&#xF6;cker p&#xE5; alla plattformar - portabelt format</a></p><p class="source"> by Olle Olsson</p><p class="eventtitle"><a href="http://www.w3.org/2004/08/TalkFiles/2015/www.bokmassan.se" class="uri">Bokm&#xE4;ssan</a></p><p class="location">Gothenburg,
+	  Sweden</p></div></li><li class="vevent"><p class="date single"><span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-08</span></span> <span class="paren">(</span><span class="dd-mmm">8 OCT</span><span class="paren">)</span></p><div class="info-wrap"><p class="summary">Cooperation driving innovative standards </p><p class="source"> by Bernard Gidon</p><p class="eventtitle">nexo Annual Conference 2015</p><p class="location">Sintra,
+	  Portugal</p></div></li><li class="vevent"><p class="date single"><span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-14</span></span> <span class="paren">(</span><span class="dd-mmm">14 OCT</span><span class="paren">)</span></p><div class="info-wrap"><p class="summary"><a href="http://w3c.github.io/dpub/dia-del-w3c-2015-10/index.html">The Future of W3C Digital Publishing</a></p><p class="source"> keynote by Ivan Herman</p><p class="eventtitle"><a href="http://www.w3c.es/Eventos/2015/DiaW3C/" class="uri">D&#xED;a del W3C en Espa&#xF1;a 2015: el futuro de la edici&#xF3;n digital</a></p><p class="location">Madrid,
+	  Spain</p></div></li><li class="vevent"><p class="date single"><span class="dtstart"><span class="year">2015</span><span class="mm-dd">-11-20</span></span> <span class="paren">(</span><span class="dd-mmm">20 NOV</span><span class="paren">)</span></p><div class="info-wrap"><p class="summary"><a href="http://w3c.github.io/dpub/markup-forum-2015-11/index.html">The Convergence of Digital Publishing and the Web</a></p><p class="source"> keynote by Ivan Herman</p><p class="eventtitle"><a href="http://www.markupforum.de/das-programm2015.html" class="uri">markup forum 2015</a></p><p class="location">Stuttgart,
+	  Germany</p></div></li></ul></div>
+</div>
+<div class="unit size1on2 lastUnit">
+<div id="w3c_home_upcoming_events" class="w3c_upcoming_events"><h2 class="category"><a title="More Events&#x2026;" href="/participate/eventscal.html">Events <img src="/2008/site/images/header-link" alt="Header link" width="13" height="13" class="header-link" /></a></h2>
+  <ul class="vevent_list">
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-09-23</span></span>
+<span class="paren">(</span><span class="dd-mmm">23 SEP</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2015</span><span class="mm-dd">-09-26</span></span>
+<span class="paren">(</span><span class="dd-mmm">26 SEP</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="http://www.graphicalweb.org/2015/" class="uri url">The Graphical Web</a>
+
+      </p>
+          <p class="location">Pittsburgh, Pennsylvania, USA</p>
+
+         
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-01</span></span>
+<span class="paren">(</span><span class="dd-mmm"> 1 OCT</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2015</span><span class="mm-dd">-10-03</span></span>
+<span class="paren">(</span><span class="dd-mmm"> 3 OCT</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="http://www.paris-web.fr/" class="uri url">Paris Web</a>
+
+      </p>
+          <p class="location">Montrouge, France</p>
+
+         
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date single">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-14</span></span>
+<span class="paren">(</span><span class="dd-mmm">14 OCT</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="http://www.w3c.es/Eventos/2015/DiaW3C/" class="uri url">W3C Day in Spain: The Future of Digital Publishing </a>
+
+      </p>
+          <p class="location">Madrid, Spain</p>
+
+       <p class="host">Google Campus Madrid</p>
+  
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-25</span></span>
+<span class="paren">(</span><span class="dd-mmm">25 OCT</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2015</span><span class="mm-dd">-10-26</span></span>
+<span class="paren">(</span><span class="dd-mmm">26 OCT</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="https://www.w3.org/Payments/IG/wiki/Main_Page/FTF_Oct2015" class="uri url">Web Payments Interest Group Face-to-Face</a>
+
+      </p>
+          <p class="location">Sapporo, Japan</p>
+
+         
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-10-26</span></span>
+<span class="paren">(</span><span class="dd-mmm">26 OCT</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2015</span><span class="mm-dd">-10-30</span></span>
+<span class="paren">(</span><span class="dd-mmm">30 OCT</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="http://www.w3.org/2015/11/TPAC/" class="uri url">TPAC 2015</a>
+
+      </p>
+          <p class="location">Sapporo, Japan</p>
+
+         
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2015</span><span class="mm-dd">-11-01</span></span>
+<span class="paren">(</span><span class="dd-mmm"> 1 NOV</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2015</span><span class="mm-dd">-11-06</span></span>
+<span class="paren">(</span><span class="dd-mmm"> 6 NOV</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+              <a href="http://www.ietf.org/meeting/94/index.html" class="uri url">IETF 94</a>
+
+      </p>
+          <p class="location">Yokohama, Japan</p>
+
+         
+
+      </div>
+    </li>
+    <li class="vevent">
+      <div class="date">
+<span class="dtstart"><span class="year">2016</span><span class="mm-dd">-03-20</span></span>
+<span class="paren">(</span><span class="dd-mmm">20 MAR</span><span class="paren">)</span>
+<span class="date-separator"> &#x2013; </span>
+<span class="dtend"><span class="year">2016</span><span class="mm-dd">-03-22</span></span>
+<span class="paren">(</span><span class="dd-mmm">22 MAR</span><span class="paren">)</span>
+</div>
+
+      <div class="info-wrap">
+      <p class="summary">
+            AC Cambridge 2016
+
+      </p>
+          <p class="location">Cambridge, MA, USA</p>
+
+       <p class="host">Hosted by MIT</p>
+  
+
+      </div>
+    </li>
+  </ul></div>
+</div>
+</div>
+</div>
+<!-- end events talks --></div>
+<!-- end main content --></div>
+<div class="unit size1on3 lastUnit">
+<p class="about">The World Wide Web Consortium (W3C) is an
+international community that develops open <a href="/TR/">standards</a> to ensure the long-term growth of the Web.
+Read about the <a href="Consortium/mission.html">W3C
+mission</a>.</p>
+<!--
+    <div id="site_update">
+      <h2 class="category">
+        <a href="http://www.w3.org/Consortium/Legal/privacy-statement-20140324.html">Privacy Policy Update Planned</a>
+      </h2>
+
+      <p>W3C plans to update its site privacy policy shortly after 14 April. No material changes are intended in the <a href="http://www.w3.org/Consortium/Legal/privacy-statement-20140324.html">new privacy policy</a>.</p>
+    </div>
+-->
+<div id="w3c_home_recent_blogs"><h2 class="category">
+      <a title="More Blog Entries&#x2026;" href="/blog/">W3C Blog <img src="/2008/site/images/header-link" alt="Header link" width="13" height="13" class="header-link" />
+      </a>
+   </h2><ul class="hentry_list">
+      <li class="hentry">
+         <p class="entry-title">
+            <a href="https://www.w3.org/blog/2015/08/tpe-to-cr-advancing-the-conversation-about-web-tracking-preferences/?pk_campaign=feed&amp;pk_kwd=tpe-to-cr-advancing-the-conversation-about-web-tracking-preferences" class="uri url" rel="bookmark">TPE to CR: Advancing the conversation about Web tracking preferences</a>
+         </p>
+         <p class="date">
+            <abbr title="2015-08-20" class="published">20 August 2015</abbr> by <span class="author vcard">Wendy Seltzer</span>
+         </p>
+      </li>
+      <li class="hentry">
+         <p class="entry-title">
+            <a href="https://www.w3.org/blog/2015/08/participate-in-a-survey-on-web-security-by-the-strews-project/?pk_campaign=feed&amp;pk_kwd=participate-in-a-survey-on-web-security-by-the-strews-project" class="uri url" rel="bookmark">Participate in a survey on Web security by the STREWS project</a>
+         </p>
+         <p class="date">
+            <abbr title="2015-08-05" class="published">5 August 2015</abbr> by <span class="author vcard">
+               <a class="fn url" href="http://www.w3.org/People/Bos/">Bert Bos</a>
+            </span>
+         </p>
+      </li>
+      <li class="hentry">
+         <p class="entry-title">
+            <a href="https://www.w3.org/blog/2015/07/moving-the-web-platform-forward/?pk_campaign=feed&amp;pk_kwd=moving-the-web-platform-forward" class="uri url" rel="bookmark">Moving the Web Platform forward</a>
+         </p>
+         <p class="date">
+            <abbr title="2015-07-29" class="published">29 July 2015</abbr> by <span class="author vcard">
+               <a class="fn url" href="http://www.w3.org/People/LeHegaret/">Philippe le Hegaret</a>
+            </span>
+         </p>
+      </li>
+   </ul></div>
+<!--
+    <div id="w3c_home_video">
+      <h2 class="category">
+        <a href="/participate/podcastsvideo">Featured Video
+            <img src="/2008/site/images/header-link.gif" alt="Header link" width
+="13" height="13" class="header-link"/>
+        </a>
+      </h2>
+      <p>Here</p>
+    </div>
+    -->
+<div id="w3c_home_new_jobs">
+<h2 class="category"><a href="/Consortium/Recruitment/">Jobs
+<img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></h2>
+<p><a href="/Consortium/Recruitment/">Open position</a> for a Web
+Standards Technology Expert</p>
+</div>
+<div id="w3c_home_validators_software">
+<h2 class="category"><a href="Status.html">Validators, More
+Software <img src="/2008/site/images/header-link.gif" alt="Header link" width="13" height="13" class="header-link" /></a></h2>
+<ul>
+<li>More validators: <a href="http://validator.w3.org/unicorn/">Unicorn</a>, <a title="HTML and XHTML Validator" href="http://validator.w3.org/">HTML</a>, <a title="CSS Validator" href="http://jigsaw.w3.org/css-validator/">CSS</a></li>
+<li><a href="http://www.w3.org/2009/cheatsheet/">W3C
+cheatsheet</a></li>
+<li><a href="Status.html">More Open Source Software</a></li>
+</ul>
+</div>
+<div id="w3c_home_video">
+<h2 class="category"><a href="http://vimeo.com/w3c/buildstandards">Web Standards for the Future
+(Video)</a></h2>
+<p style="text-align: center"><a href="http://vimeo.com/w3c/buildstandards"><img src="/2014/10/stdvidthumb.png" alt="Thumbnail of Standards Video" /></a></p>
+<p>Check out our short video on Web standards!</p>
+</div>
+<div class="hpmt" id="w3c_home_member_testimonials">
+<h2 class="category"><a title="Read all Member testimonials" href="/Consortium/Member/Testimonial/">W3C Member Testimonial <img src="/2008/site/images/header-link" alt="Header link" width="13" height="13" class="header-link" /></a></h2>
+<div id="w3c_home_member_testimonials_choice"><p class="tPadding0">
+         <a rel="nofollow" href="https://www.animartec.com" class="no-border">
+            <img class="media" width="" height="" alt="Academia Animartec S.L. logo" src="/Consortium/Member/Testimonial/Logo/1613" />
+         </a>
+      </p><h3>
+         <a rel="nofollow" href="https://www.animartec.com">Academia Animartec S.L.</a>
+      </h3><p>Animartec actively collaborate with W3C in order to enhance implementation of its standards, by providing to Spanish companies a qualified support for their online projects; and training professionals in Spain, so they are concerned with compliance with W3C&#x2019;s standards and guidelines.</p></div>
+</div>
+</div>
+</div>
+<!-- end main col --></div>
+</div>
+</div>
+<!-- Generated from data/footer.php, ../../smarty/{footer-block.tpl} -->
+<div id="w3c_footer">
+<div id="w3c_footer-inner">
+<h2 class="offscreen">Footer Navigation</h2>
+<div class="w3c_footer-nav">
+<h3>Navigation</h3>
+<ul class="footer_top_nav">
+<li><a href="/">Home</a></li>
+<li><a href="/standards/">Standards</a></li>
+<li><a href="/participate/">Participate</a></li>
+<li><a href="/Consortium/membership">Membership</a></li>
+<li class="last-item"><a href="/Consortium/">About W3C</a></li>
+</ul>
+</div>
+<div class="w3c_footer-nav">
+<h3>Contact W3C</h3>
+<ul class="footer_bottom_nav">
+<li><a href="/Consortium/contact">Contact</a></li>
+<li><a accesskey="0" href="/Help/">Help and FAQ</a></li>
+<li><a href="/Consortium/sponsor/">Sponsor / Donate</a></li>
+<li><a href="/Consortium/siteindex">Site Map</a></li>
+<li>
+<address id="w3c_signature"><a href="http://lists.w3.org/Archives/Public/site-comments/">Feedback</a></address>
+</li>
+</ul>
+</div>
+<div class="w3c_footer-nav">
+<h3>W3C Updates</h3>
+<ul class="footer_follow_nav">
+<li><a href="http://twitter.com/W3C" title="Follow W3C on Twitter"><img src="/2008/site/images/Twitter_bird_logo_2012.svg" alt="Twitter" class="social-icon" height="40" /></a></li>
+</ul>
+</div>
+<!-- #footer address / page signature -->
+<p class="copyright">Copyright &#xA9; 2015 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><acronym title="Massachusetts Institute of Technology">MIT</acronym></a>, <a href="http://www.ercim.eu/"><acronym title="European Research Consortium for Informatics and Mathematics">ERCIM</acronym></a>,
+<a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.</p>
+</div>
+</div>
+<!-- /end #footer -->
+<!-- Generated from data/scripts.php, ../../smarty/{scripts.tpl} -->
+<div id="w3c_scripts"><script type="text/javascript" src="/2008/site/js/main">
+//<![CDATA[
+<!-- -->
+//]]>
+</script></div>
+</body>
+</html>

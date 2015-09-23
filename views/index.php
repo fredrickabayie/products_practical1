@@ -1,14 +1,19 @@
-<!DOCTYPE HTML>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html lang="en" manifest="mwc.appcache">
+<!--/* @var $_SERVER type */
+//$msie = strpos ( $_SERVER ["HTTP_USER_AGENT"], 'MSIE' ) > 0;
+//IF ( !$msie ) {
+  header ( "Content-Type: application/xhtml+xml" );
+  echo '<?xml version="1.0" encoding="utf-8"?>';
+//} else {
+//  header ( "Content-Type: text/html; charset=UTF-8");
+//}-->
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Products</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-sale=1">
+        <!--<meta name="viewport" content="width=device-width, initial-sale=1">-->
         <link rel="stylesheet" href="../packages/jquery.mobile-1.4.5.min.css">
         <script type="text/javascript" src="../packages/jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="../packages/jquery.mobile-1.4.5.min.js"></script>
@@ -26,9 +31,9 @@ and open the template in the editor.
                 <a href="#pagethree" data-role="button" data-transition="pop" data-icon="back">Back</a> 
                 <div data-role="navbar">
                     <ul> 
-                        <li><a href="#dialog_page" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn-active ui-state-persist">Add Product</a></li>
-                        <li><a href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn">View Products</a></li>
-                        <li><a href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn">About</a></li>
+                        <li><a accesskey="1" href="#dialog_page" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn-active ui-state-persist">Add Product</a></li>
+                        <li><a accesskey="2" href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn">View Products</a></li>
+                        <li><a accesskey="3" href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,7 +51,7 @@ and open the template in the editor.
                         </div>
                  
                  <div data-role="footer">
-                        <input type="button" id="submit_btn" value="Save">
+                        <input type="button" data-icon="cloud " id="submit_btn" value="Save">
                     </div>
                         
               </div>
@@ -66,9 +71,9 @@ and open the template in the editor.
                 <a href="#pagethree" data-role="button" data-transition="pop" data-icon="back">Back</a> 
                 <div data-role="navbar">
                     <ul> 
-                        <li><a href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
-                        <li><a href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn-active ui-state-persist">View Products</a></li>
-                        <li><a href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn">About</a></li>
+                        <li><a accesskey="1" href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
+                        <li><a accesskey="2" href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn-active ui-state-persist">View Products</a></li>
+                        <li><a accesskey="3" href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn">About</a></li>
                     </ul>
                 </div>
             </div>
@@ -94,9 +99,9 @@ and open the template in the editor.
                     <a href="#pagetwo" data-role="button" data-transition="pop" style="background-color: sandybrown" data-icon="back">Back</a> 
                 <div data-role="navbar" style="background-color: indigo">
                     <ul> 
-                        <li><a style="background-color: red; font-size: 19px" href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
-                        <li><a style="background-color: red; font-size: 19px" href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn">View Products</a></li>
-                        <li><a style="background-color: purple; font-size: 19px" href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn-active ui-state-persist">About</a></li>
+                        <li><a accesskey="1" style="background-color: red; font-size: 19px" href="#pageone" data-role="button" data-transition="turn" data-icon="plus" class="ui-btn">Add Product</a></li>
+                        <li><a accesskey="2" style="background-color: red; font-size: 19px" href="#pagetwo" data-transition="flip" data-icon="bullets" class="ui-btn">View Products</a></li>
+                        <li><a accesskey="3" style="background-color: purple; font-size: 19px" href="#pagethree" data-transition="flow" data-icon="gear" class="ui-btn-active ui-state-persist">About</a></li>
                     </ul>
                 </div>
             </div>
