@@ -11,10 +11,6 @@ version = "1.0.0">
     <author href="http://www.ashesi.edu.gh" email="fredrick.abayie@ashesi.edu.gh">
         Fredrick Abayie
     </author>
-<<<<<<< HEAD
     <icon src="logo.png" />
     <gap:splash src="pic.png" />
 </widget>
-=======
-</widget>
->>>>>>> parent of 871396b... More
