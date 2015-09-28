@@ -53,11 +53,13 @@ $( function ( )
        }   
        
 //       alert ( "Submit button clicked" );
-   }); 
+   });
 });
 
 
-$ ( document ).ready ( function ( ) 
+$(function ()
+  {
+$ ( "#pagetwo" ).click ( function ( )
 {
     var url, prod, div = "", timer, index;
 
@@ -81,4 +83,5 @@ $ ( document ).ready ( function ( )
         }
         $ ( "#prod_display" ).html ( div );
     }
+});
 });
