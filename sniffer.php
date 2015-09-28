@@ -42,10 +42,9 @@ if ( strpos ( strtolower ( $_SERVER ['HTTP_USER_AGENT'] ), 'windows' ) > 0 )
 
 if ( $mobile_browser > 0 )
 {
-    echo 'text1';
-    echo $mobile_browser;
+    echo 'Mobile Device';
+    echo '<body style="background-color: red"></body>';
 }   else    {
-    echo 'text2';
-    echo $mobile_browser;
-    //echo preg_match();
+    echo 'Desktop Device';
+    echo '<body style="background-color: green"></body>';
 }

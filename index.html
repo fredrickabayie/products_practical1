@@ -1,23 +1,29 @@
-<!--/* @var $_SERVER type */
-//$msie = strpos ( $_SERVER ["HTTP_USER_AGENT"], 'MSIE' ) > 0;
-//IF ( !$msie ) {
-  header ( "Content-Type: application/xhtml+xml" );
+<?php
+$msie = strpos ( $_SERVER ["HTTP_USER_AGENT"], 'MSIE' ) > 0;
+ if ( !$msie ) {
+  header ( "Content-Type: application/xhtml+xml; charset=UTF-8" );
   echo '<?xml version="1.0" encoding="utf-8"?>';
-//} else {
-//  header ( "Content-Type: text/html; charset=UTF-8");
-//}-->
+} else {
+  header ( "Content-Type: text/html; charset=UTF-8");
+}
+?>
 
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
 "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Products</title>
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+        <![endif]-->
         <!--<meta name="viewport" content="width=device-width, initial-sale=1">-->
         <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" href="custom.css">
         <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
         <script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
-        <link rel="stylesheet" href="custom.css"/>
+
         <!--<link rel="stylesheet" href="../packages/custom.min.css"/>--> 
         <script type="text/javascript" src="handlers.js"></script>
     </head>
@@ -119,7 +125,6 @@
                     
                     
                 </div>
-        
-        
+
     </body>
 </html>
