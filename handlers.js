@@ -13,10 +13,10 @@
  */
 function sendRequest ( u )
 {
-    var prod, result;
+//    var prod, result;
 
-    prod = $.ajax ( { url:u, async: false } );
-    result = $.parseJSON ( prod.responseText );
+    var prod = $.ajax ( { url:u, async: false } );
+    var result = $.parseJSON ( prod.responseText );
     return result;
 }
 
@@ -26,7 +26,9 @@ function sendRequest ( u )
  *  
  * @returns {undefined}
  */
-   $ ( document ).click ( function ( )
+$(function()
+  {
+   $ ( "#submit_btn" ).click ( function ( )
    {
        var prod, prod_name, prod_price, prod_description, prod_barcode, url;
 
@@ -35,10 +37,13 @@ function sendRequest ( u )
        prod_description = encodeURI ( document.getElementById ( "prod_description" ).value );
        prod_barcode = encodeURI ( document.getElementById ( "prod_barcode" ).value );
        
-       url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=1&prod_name="+prod_name+
+//       url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=1&prod_name="+prod_name+
+//                     "&prod_price="+prod_price+"&prod_description="+prod_description+
+//                     "&prod_barcode="+prod_barcode;
+
+             url = "product_controller.php?cmd=1&prod_name="+prod_name+
                      "&prod_price="+prod_price+"&prod_description="+prod_description+
                      "&prod_barcode="+prod_barcode;
-             
        prod = sendRequest ( url );
        
        if ( prod.result === 1 )
@@ -51,16 +56,17 @@ function sendRequest ( u )
        }   
        
 //       alert ( "Submit button clicked" );
+   });
 });
 
 
-$(function ()
-  {
-$ ( "#pagetwo" ).click ( function ( )
+
+$ ( document ).ready ( function ( )
 {
     var url, prod, div = "", timer, index;
 
-    url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
+//    url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
+    url = "product_controller.php?cmd=2";
     prod = sendRequest ( url );
     
     if ( prod.result === 1 )
@@ -80,5 +86,4 @@ $ ( "#pagetwo" ).click ( function ( )
         }
         $ ( "#prod_display" ).html ( div );
     }
-});
 });

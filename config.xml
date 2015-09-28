@@ -6,7 +6,7 @@ versionCode = "11"
 version = "1.0.0">
     <name>Product</name>
     <description>
-        Demo for fall 2015
+        An application to help people enter products
     </description>
     <author href="http://www.ashesi.edu.gh" email="fredrick.abayie@ashesi.edu.gh">
         Fredrick Abayie

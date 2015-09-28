@@ -43,7 +43,7 @@ if ( strpos ( strtolower ( $_SERVER ['HTTP_USER_AGENT'] ), 'windows' ) > 0 )
 if ( $mobile_browser > 0 )
 {
     echo 'Mobile Device';
-    echo '<body style="background-color: red"></body>';
+    echo '<body style="background-color: red"></body>';65
 }   else    {
     echo 'Desktop Device';
     echo '<body style="background-color: green"></body>';

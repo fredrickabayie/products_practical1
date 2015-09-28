@@ -29,7 +29,7 @@ class product extends adb
    */
   function add_product ( $prod_name, $prod_price, $prod_description, $prod_barcode )
   {     
-      $add_query = "INSERT INTO `mobileweb_miniproject`"
+      $add_query = "INSERT INTO `miniproject`"
                             . " (`prod_id`, `prod_name`, `prod_price`, `prod_description`, `prod_barcode`) "
                             . "VALUES (NULL, '$prod_name', '$prod_price', '$prod_description', '$prod_barcode')";
 
@@ -44,8 +44,7 @@ class product extends adb
    */
   function get_products ( )
   {
-      $get_query = "SELECT *"
-                          . "FROM `mobileweb_miniproject`";
+      $get_query = "SELECT * FROM `miniproject`";
       
       return $this->query ( $get_query );
   }
