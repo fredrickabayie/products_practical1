@@ -26,9 +26,7 @@ function sendRequest ( u )
  *  
  * @returns {undefined}
  */
-$( function ( )
-{
-   $ ( "#submit_btn").click ( function ( )
+   $ ( document ).click ( function ( )
    {
        var prod, prod_name, prod_price, prod_description, prod_barcode, url;
 
@@ -53,7 +51,6 @@ $( function ( )
        }   
        
 //       alert ( "Submit button clicked" );
-   });
 });
 
 

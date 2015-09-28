@@ -4,7 +4,7 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id = "com.fredrickabayie.pg1"
 versionCode = "11"
 version = "1.0.0">
-    <name>JQ-PG Demo1</name>
+    <name>Product</name>
     <description>
         Demo for fall 2015
     </description>

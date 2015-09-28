@@ -18,16 +18,7 @@ include_once "adb.php";
 class product extends adb
 {
 
-  /**
-   *The constructor of the class
-   */
-//  function __construct ( )
-//  {
-//    $this->connect ( );
-//  }
-
-  
-  /**
+ /**
    *Function to add a new product to the database
    *
    *@param String $prod_name The name of the product to be created
