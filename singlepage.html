@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN"
+"http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Single Page</title>
+</head>
+   
+    <style type="text/css">
+        body{
+         background-color: white; 
+         background-image: url("desktop2.png");
+         background-repeat: no-repeat;
+        }
+        
+        @media screen and (min-width: 0px) and (max-width: 400px){
+            body{
+                background-color: #B5916C;
+                background-image: url("mobile.png");
+                background-repeat: no-repeat;
+            }
+        }
+        
+          @media screen and (min-width: 400px) and (max-width: 800px){
+            body{
+                background-color: lightblue;
+                background-image: url("desktop.png");
+                background-repeat: no-repeat;
+            }
+        }
+    </style>
+    
+<body>
+    <p>A single page that shows different things depending on the device</p>
+</body>
+
+</html>

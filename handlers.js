@@ -54,6 +54,7 @@ $ ( function ( )
 });
 
 
+
 $ ( document ).ready ( function ( )
 {
 //    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
@@ -77,4 +78,33 @@ $ ( document ).ready ( function ( )
         }
         $ ( "#prod_display" ).html ( div );
     }
+});
+
+
+$(function()
+  {
+$ ( "#sync_btn" ).click ( function ( )
+{
+//    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
+    var url = "product_controller.php?cmd=2";
+    var prod = sendRequest ( url );
+    
+    if ( prod.result === 1 )
+    {
+        var div = "";
+        var timer;
+        
+        for ( var index in prod.products )
+        {
+            div += "<li data-role='list-divider'>Friday, October 8, 2010 <span class='ui-li-count'>ID "+prod.products [index].prod_id+"</span></li>";
+            div += "<li><a href='index.html'>";
+            div += "<h2>"+prod.products [index].prod_name+"</h2>";
+            div += "<p><strong>BARCODE "+prod.products [index].prod_barcode+"</strong></p>";
+            div += "<p>DESCRIPTION "+prod.products [index].prod_description+"</p>";
+            div += "<p class='ui-li-aside'><strong>GHC "+prod.products [index].prod_price+"</strong></p>";
+            div += "</a></li>";
+        }
+        $ ( "#prod_display" ).html ( div );
+    }
+});
 });
