@@ -55,7 +55,8 @@ $ ( function ( )
 
 $ ( document ).ready ( function ( )
 {
-    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
+//    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
+    var url = "product_controller.php?cmd=2";
     var prod = sendRequest ( url );
     
     if ( prod.result === 1 )

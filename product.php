@@ -53,8 +53,8 @@ class product extends adb
    */
   function get_products ( )
   {
-      $get_query = "SELECT *"
-                          . "FROM `mobileweb_miniproject`";
+//      $get_query = "SELECT * FROM `mobileweb_miniproject`";
+      $get_query = "SELECT * FROM `miniproject`";
       
       return $this->query ( $get_query );
   }
