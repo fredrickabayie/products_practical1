@@ -33,14 +33,11 @@ $ ( function ( )
        var prod_description = encodeURI ( document.getElementById ( "prod_description" ).value );
        var prod_barcode = encodeURI ( document.getElementById ( "prod_barcode" ).value );
        
-<<<<<<< HEAD
-       var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=1&prod_name="+prod_name+
-=======
-       var url = "../controllers/product_controller.php?cmd=1&prod_name="+prod_name+
->>>>>>> parent of 04299dc... Last
-                     "&prod_price="+prod_price+"&prod_description="+prod_description+
-                     "&prod_barcode="+prod_barcode;
+//       var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=1&prod_name="+prod_name+
+//                     "&prod_price="+prod_price+"&prod_description="+prod_description+
+//                     "&prod_barcode="+prod_barcode;
 
+       var url = "product_controller.php?cmd=1&prod_name="+prod_name+"&prod_price="+prod_price+"&prod_description="+prod_description+"&prod_barcode="+prod_barcode;
        var prod = sendRequest ( url );
        
        if ( prod.result === 1 )
@@ -59,12 +56,8 @@ $ ( function ( )
 
 $ ( document ).ready ( function ( )
 {
-<<<<<<< HEAD
 //    var url = "http://cs.ashesi.edu.gh/~csashesi/class2016/fredrick-abayie/mobileweb/products_practical1/product_controller.php?cmd=2";
     var url = "product_controller.php?cmd=2";
-=======
-    var url = "../controllers/product_controller.php?cmd=2";
->>>>>>> parent of 04299dc... Last
     var prod = sendRequest ( url );
     
     if ( prod.result === 1 )
